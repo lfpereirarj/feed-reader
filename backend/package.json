@@ -1,6 +1,6 @@
 {
   "name": "backend",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "O Feed Reader é um programa de armazenamento de endereços de feeds RSS que exibe",
   "main": "loader.js",
   "scripts": {
