@@ -1,0 +1,7 @@
+.content {
+    padding-top: 56px;
+    min-height: calc(100vh - 120px - 56px);
+}
+.welcome {
+    padding: 100px 0 100px;
+}

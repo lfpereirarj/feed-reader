@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-Br" ng-app="feedReader">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Feed Reader</title>
+    <link rel="stylesheet" href="/assets/css/vendors.min.css">
+    <link rel="stylesheet" href="/assets/css/app.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header navbar navbar-expand-lg navbar-dark bg-dark fixed-top" ng-include="'/templates/partials/header.html'"></header>
+        <div class="content" ui-view></div>
+        <footer class="py-5 bg-dark" ng-include="'/templates/partials/footer.html'"></footer>
+    </div>
+    <script src="/assets/js/vendors.min.js"></script>
+    <script src="/assets/js/app.min.js"></script>
+</body>
+</html>
